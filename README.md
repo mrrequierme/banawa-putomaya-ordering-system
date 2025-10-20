@@ -20,18 +20,14 @@ putomaya-ordering-system/
 - Order tracking
 - History records
 - Responsive design
-
+### Installation I set this already on local
 ### Backend Setup
 
 - cd backend
-- composer install
-- Copy .env.example to .env
-- php artisan key:generate
 - php artisan migrate
 - php artisan serve
 
 ### Frontend Setup
 
 - cd frontend
-- npm install
 - npm run dev

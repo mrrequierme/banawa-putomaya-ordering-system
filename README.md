@@ -4,7 +4,7 @@ A full-stack ordering system built with:
 
 - Backend: Laravel REST API
 - Frontend: Vue 3 + Vite + Tailwind CSS
-- Live - https://banawaputomaya.infinityfreeapp.com
+- Live - https://banawaputomaya.vercel.app
 
 ## Project Structure
 
@@ -20,14 +20,18 @@ putomaya-ordering-system/
 - Order tracking
 - History records
 - Responsive design
-### Installation I set this already on local
+### Installation - Local setup
 ### Backend Setup
 
 - cd backend
+- composer install
+- copy .env.example paste to .env
+- php artisan key:generate
 - php artisan migrate
 - php artisan serve
 
 ### Frontend Setup
 
 - cd frontend
+- npm install
 - npm run dev
